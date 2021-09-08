@@ -3,13 +3,12 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
 }
 header{
     background-color: rgba(144, 144, 144, 0.589);
     color: #fff;
     font-size: 16px;
-    padding: 20px 90px;
+    padding: 20px 120px;
 }
 header .logo{
     font-size: 40px;
@@ -17,4 +16,13 @@ header .logo{
 }
 header nav{
      padding: 5px;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+header nav ul li{
+    margin: 0 10px;
+    color: cornsilk;
 }
